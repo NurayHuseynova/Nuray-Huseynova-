@@ -122,11 +122,7 @@ Bu kombinasiyanın validation nəticələri:
 Proqnozların birləşdirilməsi üçün hər modelin `target = 1` ehtimalını götürüb çəkili orta hesabladım:
 
 ```python
-P_final = (
-    0.60 * P_CatBoost +
-    0.29 * P_LightGBM +
-    0.11 * P_XGBoost
-)
+P_final = (0.60 * P_CatBoost +0.29 * P_LightGBM +0.11 * P_XGBoost)
 ```
 
 Fərqli çəki kombinasiyalarını da yoxladım. Nəticələr bir-birinə yaxın olduğu üçün fərqi şişirtmək düzgün olmaz. Üç modelin birləşdirilməsi validation nəticəsini bir qədər yaxşılaşdırdı.
