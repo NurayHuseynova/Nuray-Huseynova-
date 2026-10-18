@@ -14,8 +14,8 @@ Kaggle yarışmasında təqdim olunan train və test fayllarından istifadə etm
 | Test datası | 7 929 sətir, 48 sütun |
 | `target = 0` | 14 358 (45,27%) |
 | `target = 1` | 17 357 (54,73%) |
-| Çatışmayan dəyərlər | Tapılmayıb |
-| Təkrarlanan sətirlər | Tapılmayıb |
+| Çatışmayan dəyərlər | Yoxdur |
+| Təkrarlanan sətirlər | yoxdur |
 
 `target` dəyişəni 0 və 1 qiymətlərindən ibarətdir. Train datasında 1-lərin sayı bir qədər çox olsa da, siniflər arasında ciddi fərq yoxdur.
 
