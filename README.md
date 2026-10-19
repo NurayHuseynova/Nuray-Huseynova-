@@ -139,11 +139,7 @@ Bu variantın validation nəticələri:
 Modellərin proqnozlarını aşağıdakı çəkili orta düsturu ilə birləşdirdim:
 
 ```python
-P_final = (
-    0.60 * P_CatBoost +
-    0.29 * P_LightGBM +
-    0.11 * P_XGBoost
-)
+P_final = (0.60 * P_CatBoost +0.29 * P_LightGBM +0.11 * P_XGBoost)
 ```
 
 Burada hər model `target = 1` üçün ehtimal hesablayır, sonra bu ehtimallar seçilmiş çəkilərlə birləşdirilir.
